@@ -1,24 +1,30 @@
-# Gradle files
+# Gradle
 .gradle/
 build/
 **/build/
 
-# Local configuration (SDK/NDK paths etc.)
+# Local config (SDK path)
 local.properties
-
-# Logs
-*.log
 
 # Android Studio
 .idea/
 *.iml
 
+# Logs
+*.log
+
 # OS junk
 .DS_Store
 Thumbs.db
 
-# Keystore files (don’t ever commit release keys)
+# Keystores
 *.jks
 *.keystore
-local.properties
-local.properties
+
+# Node/React Native
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.metro-cache/
+.expo/
+dist/
