@@ -20,3 +20,4 @@ Thumbs.db
 # Keystore files (don’t ever commit release keys)
 *.jks
 *.keystore
+local.properties
