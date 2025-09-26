@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Employee License Tracker</string>
+    <string name="dashboard_title">Employee License Dashboard</string>
+    <string name="total_licenses">Total Employees</string>
+    <string name="active_licenses">Active</string>
+    <string name="expiring_licenses">Expiring Soon</string>
+    <string name="expired_licenses">Expired</string>
+    <string name="add_license">Add Employee</string>
+    <string name="edit_license">Edit Employee</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="license_type">License Type</string>
+    <string name="custom_license_type">Custom License Type</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="description">Notes</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="search_licenses">Search employees...</string>
+    <string name="no_licenses">No employees found</string>
+    <string name="expires_in">Expires in %d days</string>
+    <string name="expired_on">Expired on %s</string>
+    <string name="notification_title">Employee License Expiring Soon</string>
+    <string name="notification_text">%s\'s license expires in %d days</string>
+    
+    <!-- License type options -->
+    <string-array name="license_types">
+        <item>DGSC</item>
+        <item>Shotfirer</item>
+        <item>Other</item>
+    </string-array>
+</resources>
