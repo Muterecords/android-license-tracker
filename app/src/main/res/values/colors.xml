@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Theme colors used by layouts/styles -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+    <color name="background">#FFFFFF</color>
+
+    <!-- Launcher background from earlier -->
     <color name="ic_launcher_background">#FFFFFF</color>
 </resources>
