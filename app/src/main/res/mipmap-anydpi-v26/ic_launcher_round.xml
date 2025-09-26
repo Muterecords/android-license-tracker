@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Background can be a color or drawable you already have -->
     <background android:drawable="@color/ic_launcher_background"/>
-    <!-- Foreground must be a drawable or mipmap that actually exists -->
-    <!-- Try @mipmap first (newer templates); if you don't have it, change to @drawable -->
-    <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
 </adaptive-icon>
