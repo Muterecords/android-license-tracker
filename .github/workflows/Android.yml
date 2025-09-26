@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
   build:
@@ -18,6 +18,19 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+
+      # --- Generate a Gradle wrapper if the JAR is missing ---
+      - name: Bootstrap Gradle wrapper
+        run: |
+          set -e
+          if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
+            echo "Gradle wrapper JAR missing. Bootstrapping..."
+            wget -q https://services.gradle.org/distributions/gradle-8.7-bin.zip
+            unzip -q gradle-8.7-bin.zip
+            ./gradle-8.7/bin/gradle wrapper --gradle-version 8.7
+          else
+            echo "Gradle wrapper JAR present."
+          fi
 
       - name: Make Gradle executable
         run: chmod +x ./gradlew
