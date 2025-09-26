@@ -4,18 +4,17 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    
-    <group android:scaleX="2.5"
-           android:scaleY="2.5"
-           android:translateX="22"
-           android:translateY="22">
-        
-        <path
-            android:fillColor="#3B82F6"
-            android:pathData="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
-        
+    <!-- Circle -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M54,4a50,50 0 1,0 0,100a50,50 0 1,0 0,-100"/>
+    <!-- "LM" letters -->
+    <group android:translateX="22" android:translateY="36">
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M8,12H16V14H8V12M8,16H13V18H8V16Z"/>
+            android:pathData="M0,0 L8,0 L8,32 L0,32 Z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M14,0 L22,0 L22,24 L34,24 L34,32 L14,32 Z"/>
     </group>
 </vector>

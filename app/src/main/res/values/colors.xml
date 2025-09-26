@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Theme colors (you can tweak to taste) -->
     <color name="primary">#6200EE</color>
     <color name="primary_dark">#3700B3</color>
     <color name="accent">#03DAC5</color>
     <color name="background">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status colors -->
+    <color name="success">#2E7D32</color>   <!-- green 800 -->
+    <color name="warning">#F9A825</color>   <!-- yellow 800 -->
+    <color name="error">#C62828</color>     <!-- red 800 -->
+
+    <!-- Launcher background -->
     <color name="ic_launcher_background">#FFFFFF</color>
 </resources>
