@@ -1,0 +1,22 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration (SDK/NDK paths etc.)
+local.properties
+
+# Logs
+*.log
+
+# Android Studio
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Keystore files (don’t ever commit release keys)
+*.jks
+*.keystore
