@@ -45,3 +45,4 @@ dependencies {
     // ✅ Explicit Kotlin dependency
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.20"
 }
+// trigger build
