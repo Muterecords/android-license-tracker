@@ -11,4 +11,5 @@
     <color name="text_primary">#1F2937</color>
     <color name="text_secondary">#6B7280</color>
     <color name="divider">#E5E7EB</color>
+    <color name="ic_launcher_background">#FFFFFF</color> 
 </resources>
